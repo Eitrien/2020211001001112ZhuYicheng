@@ -12,15 +12,15 @@
 </head>
 <body>
 <h1>Register Page</h1>
-<form method="post">
-    Username: <input type="text" name="username"/><br/>
-    Password: <input type="password" name="password"/><br/>
-    Email: <input type="email" name="email"/><br>
-    <select id="sex" name="sex">
+<form method="register">
+    Username: <input type="text"/><br/>
+    Password: <input type="password"/><br/>
+    Email: <input type="email"/><br>
+    <select>
         <option value="male">Male</option>
         <option value="female">Female</option>
     </select><br/>
-    Birthdate: <input type="date" name="Birthdate" /><br/>
+    Birthdate: <input type="date"/><br/>
     <input type="submit" value="Register"/>
 </form>
 </body>
