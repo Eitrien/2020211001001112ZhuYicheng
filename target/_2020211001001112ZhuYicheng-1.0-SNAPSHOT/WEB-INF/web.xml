@@ -8,8 +8,24 @@
         <servlet-name>week2</servlet-name>
         <servlet-class>com.ZhuYicheng.week2.demo.HelloWorldServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.ZhuYicheng.week3.demo.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LifeCycleServlet</servlet-name>
+        <servlet-class>com.ZhuYicheng.week3.demo.LifeCycleServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>week2</servlet-name>
         <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/week3</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LifeCycleServlet</servlet-name>
+        <url-pattern>/week3_life</url-pattern>
     </servlet-mapping>
 </web-app>
