@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Eitrien
-  Date: 2022/3/9
-  Time: 上午 12:43
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -12,15 +5,12 @@
 </head>
 <body>
 <h1>Register Page</h1>
-<form method="register">
-    Username: <input type="text"/><br/>
-    Password: <input type="password"/><br/>
-    Email: <input type="email"/><br>
-    <select>
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-    </select><br/>
-    Birthdate: <input type="date"/><br/>
+<form method="post" action="week3">
+    Username: <input type="text" name="user"/><br/>
+    Password: <input type="password" name="psw"/><br/>
+    Email: <input type="email" name="email"/><br>
+    Gender: <input type="radio" name="gender">Mail <input type="radio" name="gender">Female<br/>
+    BirthDate: <input type="text" name="birth"/><br/>
     <input type="submit" value="Register"/>
 </form>
 </body>

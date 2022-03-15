@@ -10,6 +10,8 @@
 <br/>
 <a href="hello">Infomations</a>
 <br/>
-<a href="register.jsp">Week2</a>
+<a href="register.jsp">Week3_Register</a>
+<br/>
+<a href="week3_life">Week3_LifeCycleServlet</a>
 </body>
 </html>
