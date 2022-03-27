@@ -11,6 +11,10 @@
 <a href="hello">Infomations</a>
 <br/>
 <a href="register.jsp">Week3_Register</a>
+<br/>
 <a href="week3_life">Week3_LifeCycleServlet</a>
+<br/>
+<a href="week4_Config">Week4_Config</a>
+<br/>
 </body>
 </html>
