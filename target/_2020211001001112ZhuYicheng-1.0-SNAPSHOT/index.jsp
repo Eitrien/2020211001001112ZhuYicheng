@@ -16,5 +16,7 @@
 <br/>
 <a href="week4_Config">Week4_Config</a>
 <br/>
+<a href="lab1/index.jsp">Lab1</a>
+<br>
 </body>
 </html>
