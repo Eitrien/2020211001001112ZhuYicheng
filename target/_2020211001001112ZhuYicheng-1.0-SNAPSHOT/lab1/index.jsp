@@ -11,7 +11,8 @@
     <title>Lab1_index</title>
 </head>
 <body>
-
+<a href="../lifecycle">LifeCycle</a>
+</br>
 <a href="MyJsp.jsp">MyJsp</a>
 
 </body>

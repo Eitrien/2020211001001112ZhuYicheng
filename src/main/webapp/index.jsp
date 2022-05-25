@@ -18,5 +18,7 @@
 <br/>
 <a href="lab1/index.jsp">Lab1</a>
 <br>
+<a href="lab2/login.jsp">Lab2</a>
+<br>
 </body>
 </html>
